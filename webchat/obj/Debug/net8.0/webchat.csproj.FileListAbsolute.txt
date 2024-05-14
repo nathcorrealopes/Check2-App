@@ -27,3 +27,4 @@ C:\Batepapo\webchat\obj\Debug\net8.0\refint\webchat.dll
 C:\Batepapo\webchat\obj\Debug\net8.0\webchat.pdb
 C:\Batepapo\webchat\obj\Debug\net8.0\webchat.genruntimeconfig.cache
 C:\Batepapo\webchat\obj\Debug\net8.0\ref\webchat.dll
+C:\Batepapo\webchat\obj\Debug\net8.0\webchat.sourcelink.json

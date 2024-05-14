@@ -1,11 +1,19 @@
-<div>
-  <h2>Chat</h2>
-  
-  <div *ngFor="let mensagem of mensagens">
-      {{ mensagem }}
-  </div>
+<div class="container">
+ 
 
-  <textarea [(ngModel)]="novaMensagem"></textarea>
-  <button (click)="enviarMensagem()">Enviar</button>
+<div class="titulochat">
+    <h2>Chat</h2>
+
+    <div class="partemensagem">
+      <textarea [(ngModel)]="novaMensagem" placeholder="Digite sua mensagem..."></textarea>
+      <button (click)="enviarMensagem()">Enviar</button>
+    </div>
+
+    <div class="mensagens-container">
+      <div class="balao-mensagem" *ngFor="let mensagem of mensagens">
+          {{ mensagem }}
+      </div>
+    </div>
+  </div> 
 </div>
-<router-outlet></router-outlet>
+  

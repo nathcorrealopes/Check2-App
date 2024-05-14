@@ -1,0 +1,56 @@
+/* Estilos para o contêiner principal do chat */
+.container {
+  background-color: pink;
+}
+
+
+  .titulochat {
+    width: 80%;
+    margin: 50px auto; /* mais margem do topo */
+    text-align: center;
+  }
+  
+  /* Estilos para o título do chat */
+  .titulochat h2 {
+    font-size: 2rem;
+    color: #ff69b4; /* rosa */
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para a área onde o usuário digita a mensagem */
+  .partemensagem {
+    width: 100%;
+    margin-bottom: 30px; /* mais margem entre o textarea e o botão */
+  }
+  
+  .partemensagem textarea {
+    width: calc(100% - 20px); /* ajuste para compensar o padding */
+    padding: 10px;
+    margin-right: 10px; /* mais espaço entre o textarea e o botão */
+    border: 1px solid #ccc;
+    border-radius: 20px; /* redondinho */
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para o botão de enviar */
+  
+  /* Estilos para o botão de enviar */
+.partemensagem button {
+    padding: 12px 24px; /* aumentando o tamanho do botão */
+    border: none;
+    margin: 30px;
+    border-radius: 20px; /* bordas arredondadas */
+    background-color: #ff69b4; /* cor rosa */
+    color: #fff; /* cor do texto branco */
+    font-size: 1rem;
+    cursor: pointer;
+    border: 2px solid transparent; /* borda transparente */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* transição suave */
+  }
+  
+  .partemensagem button:hover {
+    margin: 20px;
+    background-color: #ffc0cb; /* cor rosa claro quando passar o mouse */
+    border-color: #ff69b4; /* cor da borda rosa quando passar o mouse */
+  }
+  
